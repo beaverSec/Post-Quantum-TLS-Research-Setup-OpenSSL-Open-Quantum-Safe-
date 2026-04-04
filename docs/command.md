@@ -11,7 +11,7 @@ cmake ..
 make -j$(nproc)
 sudo make install
 ```
-You can validate it with the command below, and make sure the library liboqs.so is exists in the system path.
+You can validate it with the command below, and make sure the library liboqs.so exists in the system path.
 ```bash
 ls /usr/local/lib | grep oqs
 ```
